@@ -1,9 +1,10 @@
-<p align="center"><a href="https://vedic-lang.github.io"><img alt="Vedic" src="" width="300vw"/></a></p>
+<p align="center"><a href="https://vedic-lang.github.io"><img alt="Vedic" src="https://raw.githubusercontent.com/vedic-lang/.github/main/profile/images/vedic-banner.gif" width="300vw"/></a></p>
 <p align="center">
 	<a href="https://vedic-lang.github.io/download">Download</a> ·
 	<a href="https://vedic-lang.github.io/">Documentation</a> ·
 	<a href="https://vedic-lang.github.io/vedic-ide">Online Ide</a>
 </p>
+
 # Vedic Programming Language
 
 Vedic is World first Programming launguage in Sanskrit. It is made by an idea to make Sanskrit the most suitable language for Programming.

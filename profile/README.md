@@ -1,4 +1,4 @@
-<p align="center"><a href="https://vedic-lang.github.io"><img alt="Vedic" src="https://raw.githubusercontent.com/vedic-lang/.github/main/profile/images/vedic-banner.gif" width="300vw"/></a></p>
+<p align="center"><a href="https://vedic-lang.github.io"><img alt="Vedic" src="https://raw.githubusercontent.com/vedic-lang/logo/main/logo.svg" width="300vw"/></a></p>
 <p align="center">
 	<a href="https://vedic-lang.github.io/download">Download</a> ·
 	<a href="https://vedic-lang.github.io/">Documentation</a> ·

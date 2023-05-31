@@ -1,13 +1,27 @@
-<p align="center"><a href="https://vedic-lang.github.io"><img alt="Vedic" src="https://raw.githubusercontent.com/vedic-lang/logo/main/logo.svg" width="300vw"/></a></p>
 <p align="center">
-	<a href="https://vedic-lang.github.io/download">Download</a> ·
-	<a href="https://vedic-lang.github.io/">Documentation</a> ·
-	<a href="https://vedic-lang.github.io/vedic-ide">Online Ide</a>
+    <a href="https://vedic-lang.github.io">
+        <img alt="Vedic"src="https://raw.githubusercontent.com/vedic-lang/vedic/main/assets/vedic-lang.png" width="300vw"/>
+    </a>
+    <br>
+    <a href="https://vedic-lang.github.io/download">Download</a> ·
+    <a href="https://vedic-lang.github.io/">Documentation</a> ·
+    <a href="https://vedic-lang.github.io/vedic-ide">Online Ide</a>
 </p>
 
 # Vedic Programming Language
 
-Vedic is World first Programming launguage in Sanskrit. It is made by an idea to make Sanskrit the most suitable language for Programming.
+Introducing **Vedic** 🎉 - A Sanskrit programming language interpreter written in Rust! 🎉 Designed for simplicity and power, Vedic allows developers to write modern programs in the ancient language of Sanskrit.
 
->Fun-Fact - Once Rick Briggs, a researcher at NASA wrote a paper in 1985 titled Knowledge Representation in Sanskrit and Artificial Intelligence. claims that Sanskrit is the most suitable language to develop computer programming for their Artificial Intelligence program. The grammar of Sanskrit is rule-bound, formula-bound, and logical, which makes it highly appropriate to write algorithms. So considering that Vedic designed to be a high-level, logical scripting language.
+# Installation
 
+Vedic works on macOS, Linux, and Windows. vedic is a single binary executable. It has no external dependencies.
+
+### Download and install
+
+Visit the [Download page](https://vedic-lang.github.io/download), which offers convenient scripts for downloading and installing the binary.
+
+### Using Shell (Linux and macOS):
+
+```bash
+curl -fsSL https://vedic-lang.github.io/install/install.sh | sh
+```

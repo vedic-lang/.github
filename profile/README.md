@@ -1,33 +1,35 @@
-<p align="center">
-    <a href="https://vedic-lang.github.io">
-        <img alt="Vedic"src="https://raw.githubusercontent.com/vedic-lang/vedic/main/assets/vedic-lang.png" width="300vw"/>
-    </a>
-    <br>
-    <a href="https://vedic-lang.github.io/download">Download</a> ·
-    <a href="https://vedic-lang.github.io/">Documentation</a> ·
-    <a href="https://vedic-lang.github.io/vedic-ide">Online Ide</a>
-</p>
+[![Vedic](./images/vedic-banner.svg)](https://vedic-lang.github.io/)
 
-# Vedic Programming Language
+# Programming in Sanskrit
 
-Introducing **Vedic** 🎉 - A Sanskrit programming language interpreter written in Rust! 🎉 Designed for simplicity and power, Vedic allows developers to write modern programs in the ancient language of Sanskrit.
+Vedic lets you write programs with Sanskrit keywords and Devanagari numerals. The same Rust interpreter runs on your computer and in the browser.
 
-# Installation
+**[Try Vedic in your browser](https://vedic-lang.github.io/vedic-ide/?example=hello-world.ved)** · [First lesson](https://vedic-lang.github.io/hello-world) · [Language reference](https://vedic-lang.github.io/language-reference)
 
-Vedic works on macOS, Linux, and Windows. vedic is a single binary executable. It has no external dependencies.
+## Write your first program
 
-### Download and install
+`वद` prints a value. Paste this line into the editor and press **Run**. You’ll see `नमस्ते विश्व!` (“Hello, world!”) in the console.
 
-Visit the [Download page](https://vedic-lang.github.io/download), which offers convenient scripts for downloading and installing the binary.
-
-### Using Shell (Linux and macOS):
-
-```bash
-curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
+```vedic
+वद("नमस्ते विश्व!");
 ```
 
-### Using Homebrew (Linux and macOS):
+To run it locally, save the line as `hello.ved`. Install Vedic with Homebrew, then run the file.
 
-```bash
+```sh
 brew install vedic
+vedic hello.ved
 ```
+
+[More installation options for macOS, Linux, and Windows](https://vedic-lang.github.io/download)
+
+## Build with us
+
+| Project | What you can work on |
+| --- | --- |
+| [Vedic](https://github.com/vedic-lang/vedic) | The interpreter, command-line tools, and language tests |
+| [Online IDE](https://github.com/vedic-lang/vedic-ide) | The browser editor and WebAssembly integration |
+| [Documentation](https://github.com/vedic-lang/vedic-lang.github.io) | Lessons, examples, and the language reference |
+| [Code Highlighter](https://github.com/vedic-lang/vedic-code-highlighter) · [Code Formatter](https://github.com/vedic-lang/vedic-code-formatter) | Syntax highlighting, formatting, and running programs in VS Code |
+
+Joining the project? The [contributor guide](https://github.com/vedic-lang/vedic/blob/main/CONTRIBUTING.md) explains how to build the interpreter and run its tests.
